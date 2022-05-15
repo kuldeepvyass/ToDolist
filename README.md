@@ -1,2 +1,2 @@
 # ToDolist
-my project using only js, css and html
+TO DO List using only js, css and html
