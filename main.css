@@ -71,7 +71,16 @@ input, button {
 	cursor: pointer;
 	transition: 0.4s;
 }
-
+#selected-task-delete {
+	color: var(--dg);
+	font-size: 1.25rem;
+	font-weight: 700;
+	background-color: red;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+	transition: 0.4s;
+}
 #new-task-submit:hover {
 	opacity: 0.8;
 }
@@ -100,7 +109,7 @@ main {
 
 #tasks .task {
 	display: flex;
-	 justify-content: space-between;
+	justify-content: space-between;
 	background-color: var(--darkest);
 	padding: 1rem;
 	border-radius: 1rem;
@@ -151,6 +160,28 @@ main {
 	-webkit-text-fill-color: transparent;
 }
 
+.task .actions .task_date {
+	background-color: gray;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .task .actions .delete {
 	color: crimson;
+}
+.task .actions .checkbox {
+	
+
+	 height: 20px; 
+	width: 30px;
+	margin-top: 0px;
+
+
+
+}
+input[type=checkbox]
+{
+-webkit-appearance:checkbox;
+ 
+
 }
